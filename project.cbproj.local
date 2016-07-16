@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013.12.25 00:22:35.147.c,C:\Users\User\Documents\RAD Studio\Projects\File9.c=C:\Users\User\Desktop\3 семестр\Теорія прог\LABs\New\app.c</Transaction>
+    <Transaction>2013.12.25 00:23:01.294.cbproj,C:\Users\User\Documents\RAD Studio\Projects\Project5.cbproj=C:\Users\User\Desktop\3 семестр\Теорія прог\LABs\New\project.cbproj</Transaction>
+    <Transaction>2013.12.25 00:23:17.242.c,C:\Users\User\Desktop\3 семестр\Теорія прог\LABs\New\File1.c=C:\Users\User\Desktop\3 семестр\Теорія прог\LABs\New\func.c</Transaction>
+    <Transaction>2013.12.25 00:25:31.480.h,C:\Users\User\Desktop\3 семестр\Теорія прог\LABs\New\File1.h=C:\Users\User\Desktop\3 семестр\Теорія прог\LABs\New\decl.h</Transaction>
+  </Transactions>
+</BorlandProject>

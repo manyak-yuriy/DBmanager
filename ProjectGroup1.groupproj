@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{047113ba-5612-4776-b6fc-c707fb48afc6}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="..\C_meth\Lab_3\Lab_3.cbproj" />
+    <Projects Include="project.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="project">
+    <MSBuild Projects="project.cbproj" Targets="" />
+  </Target>
+  <Target Name="project:Clean">
+    <MSBuild Projects="project.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="project:Make">
+    <MSBuild Projects="project.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Lab_3">
+    <MSBuild Projects="..\C_meth\Lab_3\Lab_3.cbproj" Targets="" />
+  </Target>
+  <Target Name="Lab_3:Clean">
+    <MSBuild Projects="..\C_meth\Lab_3\Lab_3.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="Lab_3:Make">
+    <MSBuild Projects="..\C_meth\Lab_3\Lab_3.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="project;Lab_3" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="project:Clean;Lab_3:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="project:Make;Lab_3:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>
