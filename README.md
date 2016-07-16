@@ -1,3 +1,3 @@
 # DBmanager
 
-Console-based database management system.
+Console-based Database management system.
