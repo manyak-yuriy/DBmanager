@@ -10,7 +10,7 @@ Console-based Database management system.
 <code>append</code>
    Initiate a dialog to input a new item and put it to the end.
 
-<code>add &ltnumber&gt</code>
+<code>add &#60 number&gt</code>
    Initiate a dialog to input a new item and put it to custom positon.
 
 <code>print</code>
