@@ -4,7 +4,7 @@ Console-based Database management system.
 
 # Help
 
-help
+</b>help</b>
    Show help.
 
 append
