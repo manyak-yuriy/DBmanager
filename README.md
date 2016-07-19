@@ -34,5 +34,5 @@ Console-based Database management system.
 <code>delete \<field_1 = value_1> ... \<field_n = value_n> </code>
 * Delete items which have custom values of the fields.
 
-<code>sort \<field_1> <-|+> ... \<field_n> <-|+>
+<code>sort \<field_1> <-|+> ... \<field_n> <-|+> </code>
 * Sort the last printed items according to the values of fields in lexicographical order and print them again.
