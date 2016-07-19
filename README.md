@@ -5,7 +5,7 @@ Console-based Database management system.
 # Help
 
 <code>help</code>
-   Show help.
+   *Show help.
 
 <code>append</code>
    Initiate a dialog to input a new item and put it to the end.
